@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import Header from "./components/Header";
+import MainTitle from "./components/MainTitle";
+import Reviews from "./components/Reviews";
+import CuresorEffect from "./components/CursorEffect";
+import ApplySection from "./components/ApplySection";
+import BrowserSupport from "./components/BrowserSupport";
+import PowerfulFeatures from "./components/PowerfulFeatures";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="font-sans antialiased text-white text-base leading-relaxed font-normal bg-gray-900">
+			<canvas
+				className="fixed top-0 left-0 h-full w-full"
+				width="1519"
+				height="182"
+			></canvas>
+			<Header />
+			<MainTitle />
+			<Reviews />
+			<CuresorEffect />
+			<ApplySection />
+			<BrowserSupport />
+			<PowerfulFeatures />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
