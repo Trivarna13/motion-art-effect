@@ -1,6 +1,6 @@
 # Motion Art Effect Replica
 
-This project is replicate the home page of the provided website Motion Art Effect\
+This project replicates the home page of the provided website, Motion Art Effect.
 
 WEBSITE LINK: https://preview.codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/full_screen_preview/48826891?_ga=2.184816681.105772595.1715780017-162128807.1715780017
 
@@ -8,7 +8,7 @@ WEBSITE LINK: https://preview.codecanyon.net/item/motion-art-for-elementor-wordp
 
 Clone or Download the repository.
 
-In the project directory, first install the node modules:
+In the project directory, first, install the node modules:
 
 ### `npm install`
 
